@@ -21,9 +21,8 @@ date: 2021-06-02T23:57:19+10:00
 
 `andrew.j.wong@unsw.edu.au`
 
-* SecSoc Discord - "$user.displayName"
-* SECedu Slack - "fire emoji 🔥"
-* Everywhere else - featherbear
+* SecSoc Discord - `$user.displayName`
+* Everywhere else - `featherbear`
 
 {{% /section %}}
 
@@ -42,7 +41,7 @@ Share something interesting on your phone's photo gallery (or meme collection) t
 
 🍉 Food - Sure thing
 
-🎥 Recordings - No :(
+🎥 Recordings - Nope
 
 👩‍🏫 Lab Attendance - Not marked  
 
@@ -54,10 +53,9 @@ Share something interesting on your phone's photo gallery (or meme collection) t
 
 > `cs6443@cse.unsw.edu.au`  
 
-> Slack - seceduau.slack.com  
-> `#cs6443`  
+> Discord - [secso.cc/discord](https://secso.cc/discord)
 
-> Discord, Messenger, Email, blah.
+> Ed - Check WebCMS3
 
 ---
 
@@ -72,15 +70,19 @@ Share something interesting on your phone's photo gallery (or meme collection) t
 * <s>Mid-term Exam</s>
 * 50% - Final Examination
 
-Check the course outline for the schedule
+Check the WebCMS3 site for the schedule
 
 ---
 
 ## Resources
 
-> [Open Learning](https://www.openlearning.com/unswcourses/courses/webapp-security)
-
 > [featherbear.cc/tutoring-unsw](https://featherbear.cc/tutoring-unsw)
+
+> [Useful tools](https://featherbear.cc/tutoring-unsw/resources/cs6443,cs6843/tools/)
+
+> [Doing well](https://featherbear.cc/tutoring-unsw/resources/cs6443,cs6843/tips/)
+
+> [My notes](https://featherbear.cc/UNSW-COMP6443/)
 
 ---
 
@@ -122,7 +124,6 @@ See it in action
 
 * Practice: bWAPP, DVWA, WebGoat  
 * Cookie Editor
-* Resource page: [tutoring-unsw/resources](https://featherbear.cc/tutoring-unsw/resources)
 
 {{% /section %}}
 
