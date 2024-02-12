@@ -1,0 +1,6 @@
+[submodule ".slidesData/themes/reveal-hugo"]
+	path = .slidesData/themes/reveal-hugo
+	url = git@github.com:dzello/reveal-hugo.git
+[submodule "broken-session-management"]
+	path = broken-session-management
+	url = https://github.com/featherbear/demo-broken-session-management
