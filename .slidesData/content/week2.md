@@ -11,14 +11,15 @@ date: 2024-02-20T10:00:00+11:00
 
 ---
 
-{{% section %}}
+{{< slide content="secedu.goodfaith" >}}
 
+---
+
+{{% section %}}
 
 ## HTTP - Overview
 
-```
-GET / HTTP/1.1
-```
+> `GET / HTTP/1.1`
 
 * Methods
 * Path
@@ -31,10 +32,9 @@ GET / HTTP/1.1
 
 * Headers
   * e.g `Host` (why)
-  * e.g `Content-Type`
-  * e.g `Content-Length`
+  * e.g `Content-Type` and `Content-Length`
 * Body
-  * Body types - (form, JSON, Protobuf, gRPC)
+  * Body types - (forms, JSON, Protobuf, gRPC)
   * What happens if Content-Length is...
     * Too little?
     * Too big?
@@ -44,9 +44,9 @@ GET / HTTP/1.1
 
 ---
 
-# Proxies and Jumphosts
+## Proxies and Jumphosts
 
-(Explain the concept of HAAS and how it accesses KB)
+Let's look at `haas.quoccabank.com`!
 
 {{% note %}}
 Talk about how knowing a DNS record doesn't necessarily mean that you can access the site (IP).
@@ -58,35 +58,47 @@ HAAS is inside the QuoccaBank network, and can access KB!
 
 ---
 
-# How2Burp
+## How2Burp
 
 * HTTP History
 * Repeater
 * Interceptor
 * Extensions
 
-* TURN OFF INTERCEPT LOL
+> Pages not loading?  
+> Turn off intercept
 
 ---
 
-# Source code vs DOM
+## Source code vs DOM
 
 * Source code - The actual server response
-* DOM - Browser makes assumptions + hydrates components
+* DOM - Browser assumes the content
 
-You should look at both? When is one preferred over the other?
+&nbsp;  
+
+Should we look at both?
+
+> When is one preferred over the other?
 
 {{% note %}}
 Good to mention that malformed HTML will be re-interpreted by the browser.
 Try show a `<div><b><i>something</b></div>` with a missing closing `</i>` tag and see how the DOM throws the `</i>` everywhere
 {{% /note %}}
 
+---
+
+## AuthN vs AuthZ
+
+* AuthN - Who am I?  
+* AuthZ - What can I do?
 
 ---
 
+## Server, this is me!
 
-Sessions
-Cookies
+* Sessions
+* Cookies
 * JWT
   * <s>I should store my password in my JWT</s>
     * Claims are public (if you have the token)
@@ -94,29 +106,24 @@ Cookies
   * Is this a JWT?
 * [CyberChef](https://gchq.github.io/CyberChef/)
   
-
-# AuthN vs AuthZ
-
-
 ---
 
 ## Report
 
-Group Projects (3 people)
-Vulnerability Programs
+* Group Projects (3 people)
+* Vulnerability Programs
   * [CVE](https://www.cve.org/)
   * [JVN](https://jvn.jp/en/) (Japan)
-Vulnerability scoring
-* CVSS
-* NIST
-* OCTAVE
-* Make up your own?
+* Vulnerability scoring
+  * CVSS
+  * NIST
+  * OCTAVE
+  * Make up your own?
 
 [Sample Report](https://docs.google.com/document/d/1dVXbABRPlAic2oNHqafXKrGmOYFSha-8_4kfLE_ilbQ/edit)
-
 
 {{% note %}}
 Don't need a summary...
 Mention numbering of the sections
-Critical vuln 
+Order summary by critical vuln
 {{% /note %}}
