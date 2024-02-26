@@ -147,7 +147,7 @@ cryptic-narwhal-zql3j4yj4oqewyd5ne2d9uwh.herokudns.com.	5 IN A 54.237.133.81
 * Rotation + deployment at scale
 * Access control
 
-{{% /section %%}
+{{% /section %}}
 
 ---
 
