@@ -108,19 +108,6 @@ cryptic-narwhal-zql3j4yj4oqewyd5ne2d9uwh.herokudns.com.	5 IN A 54.237.133.81
 
 ---
 
-## Authentication
-
-How do websites authenticate you?
-
-* Username / Email + Password
-* Phone Number + Code
-* Email + Magic Link
-* QR Code
-
-> Pros / Cons?
-
----
-
 ## More on Sessions
 
 * HTTP is stateless
@@ -128,6 +115,42 @@ How do websites authenticate you?
   * Information as state data
   * Identifiers as state data
 * Session management ([demo](https://github.com/featherbear/demo-broken-session-management))
+
+---
+
+## Authentication
+
+{{% section %}}
+
+How do websites authenticate you?
+
+* Username / Email + Password
+* Phone Number + Code
+* Email + Magic Link
+* QR Code
+* SSO
+
+> Pros / Cons?
+
+---
+
+**Defending against brute-force**
+
+* 2FA
+* Captchas
+* Account Lockouts
+* Generic error messages
+
+{{% section %}}
+
+---
+
+## Identity
+
+* SSO
+* OAuth
+* SAML
+  * JIT and SCIM
 
 ---
 
