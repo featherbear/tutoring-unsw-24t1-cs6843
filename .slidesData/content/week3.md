@@ -19,7 +19,7 @@ date: 2024-02-26T10:00:00+11:00
 
 ---
 
-## I got hired by GitHub - a story
+### I got hired by GitHub - a story
 
 {{% section %}}
 
@@ -27,7 +27,7 @@ date: 2024-02-26T10:00:00+11:00
 
 ---
 
-[githubtalentcommunity [dot] githubcareers [dot] online)](./scam-github.html)
+[githubtalentcommunity.githubcareers.online)](./scam-github.html)
 
 ---
 
@@ -37,22 +37,25 @@ Probably is... let's look at the source code?
 
 ---
 
-### The login page
+**The login page**
 
 ```
-https://github.com/login?client_id=a541835be80a5d13734d&return_to=%2Flogin%2Foauth%2Fauthorize%3Fclient_id%3Da541835be80a5d13734d%26redirect_uri%3Dhttps%253A%252F%252Fgithubtalentcommunity.githubcareers.online%252Fauth%252Fcallback%26scope%3Drepo%2Buser%2Bread%253Aorg%2Bread%253Adiscussion%2Bgist%2Bwrite%253Adiscussion%2Bdelete_repo
+https://github.com/login/oauth/authorize?client_id=a541835be80a5d13734d&redirect_uri=https%3A%2F%2Fgithubtalentcommunity.githubcareers.online%2Fauth%2Fcallback&scope=repo+user+read%3Aorg+read%3Adiscussion+gist+write%3Adiscussion+delete_repo"
 ```
 
 ```
-Client ID: a541835be80a5d13734d
-Scopes: repo user read:org read:discussion gist write:discussion delete_repo
+Client ID
+a541835be80a5d13734d
+
+Scopes
+repo user read:org read:discussion gist write:discussion delete_repo
 ```
 
 [GitHub Scopes](https://docs.github.com/en/apps/oauth-apps/building-oauth-apps/scopes-for-oauth-apps)
 
 ---
 
-### WHOIS you?
+**WHOIS you?**
 
 ```bash
 $> whois githubcareers.online
@@ -71,7 +74,7 @@ Registrar IANA ID: 146
 
 ---
 
-### DIGing around
+**DIGing around**
 
 ```bash
 $> dig githubtalentcommunity.githubcareers.online
@@ -87,11 +90,11 @@ cryptic-narwhal-zql3j4yj4oqewyd5ne2d9uwh.herokudns.com.	5 IN A 54.237.133.81
 
 ---
 
-### Abuse Report
+**Abuse Report**
 
 * Let GitHub know (affected platform)
-* Let Heroku know (host of malicious software)
-* Let GoDaddy know (domain provider of malicious site)
+* Let Heroku know (site host)
+* Let GoDaddy know (domain provider)
 
 {{% /section %}}
 
@@ -107,16 +110,20 @@ cryptic-narwhal-zql3j4yj4oqewyd5ne2d9uwh.herokudns.com.	5 IN A 54.237.133.81
 
 ## Authentication
 
+How do websites authenticate you?
+
 * Username / Email + Password
 * Phone Number + Code
 * Email + Magic Link
 * QR Code
 
+> Pros / Cons?
+
 ---
 
 ## More on Sessions
 
-* HTTP is stateless!
+* HTTP is stateless
 * Cookies pass state data
   * Information as state data
   * Identifiers as state data
