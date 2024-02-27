@@ -57,7 +57,7 @@ repo user read:org read:discussion gist write:discussion delete_repo
 
 **WHOIS you?**
 
-```bash
+```
 $> whois githubcareers.online
 
 Domain Name: GITHUBCAREERS.ONLINE
@@ -76,7 +76,7 @@ Registrar IANA ID: 146
 
 **DIGing around**
 
-```bash
+```
 $> dig githubtalentcommunity.githubcareers.online
 
 githubtalentcommunity.githubcareers.online. 3600 IN CNAME cryptic-narwhal-zql3j4yj4oqewyd5ne2d9uwh.herokudns.com.
@@ -141,7 +141,7 @@ How do websites authenticate you?
 * Account Lockouts
 * Generic error messages
 
-{{% section %}}
+{{% /section %}}
 
 ---
 
