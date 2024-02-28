@@ -27,7 +27,7 @@ date: 2024-02-26T10:00:00+11:00
 
 ---
 
-[githubtalentcommunity.githubcareers.online)](./scam-github.html)
+[githubtalentcommunity.githubcareers.online](./scam-github.html)
 
 ---
 
