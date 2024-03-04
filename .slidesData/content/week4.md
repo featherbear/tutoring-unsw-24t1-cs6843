@@ -121,6 +121,13 @@ If you have to, secure it.
 * UNION
 * ...
 
+---
+
+* `ORDER BY`
+* `GROUP BY`
+* `DISTINCT`
+* `LIMIT`
+* `OFFSET`
 
 ---
 
@@ -262,5 +269,42 @@ e.g. Jinja templating (Python + Flask)
 
 You now have a handle to every function. welp.
 ```
+
+{{% /section %}}
+
+---
+
+## Server Side Request Forgery
+
+
+
+{{% section %}}
+
+> Think back to HaaS
+
+* Only access to `kb` from `haas`
+* We could send network requests that appeared to originate from the `haas` server
+* Corporate / internal network?
+
+---
+
+#### Main Idea
+
+Utilising functionalities of a server to access resources
+
+* Information retrieval
+* Information disclosure - i.e. cse login servers
+* Can lead to RCE
+* Server Side Includes
+
+---
+
+#### Mitigation
+
+* URL parsing is hard
+* Whitelist domains and IPs!
+* Lower the access control of services
+* Set limits! exec time, file sizes, recursion depth
+* Local devices should NOT be assumed to be safe
 
 {{% /section %}}
