@@ -364,7 +364,7 @@ Only allow scripts / images / styles / ... from ____
   * Inheritance
 * Invalidating restrictions
   * Corrupt the CSP header
-  * Response splitting
+  * [Response splitting](https://github.com/featherbear/demo-response-header-splitting)
 
 {{% /section %}}
 
