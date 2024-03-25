@@ -1,4 +1,16 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>COMP6[84]43 Tutorial Slides</title><link>/</link><description>Recent content on COMP6[84]43 Tutorial Slides</description><generator>Hugo -- gohugo.io</generator><language>en-au</language><lastBuildDate>Mon, 11 Mar 2024 10:00:00 +1100</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>Week 5</title><link>/week5/</link><pubDate>Mon, 11 Mar 2024 10:00:00 +1100</pubDate><guid>/week5/</guid><description> Week 5 Good Faith Policy &amp;ldquo;These courses expects a high standard of professionalism from its students with regard to how security testing is conducted. We expect all students to act in good faith at all times [&amp;hellip;]&amp;rdquo;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>COMP6[84]43 Tutorial Slides</title><link>/</link><description>Recent content on COMP6[84]43 Tutorial Slides</description><generator>Hugo -- gohugo.io</generator><language>en-au</language><lastBuildDate>Mon, 25 Mar 2024 03:57:34 +1000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>Week 7</title><link>/week7/</link><pubDate>Mon, 25 Mar 2024 03:57:34 +1000</pubDate><guid>/week7/</guid><description>Week 7 Origin vs Site What is an origin?
+http://www.website.com:80
+origin = scheme + host + port
+What is a site?
+http://www.website.com:80
+https://mobile.website.com:443
+ftp://f.website.com:21
+site = private_domain + public_suffix
+Scheme doesn&amp;rsquo;t matter Port doesn&amp;rsquo;t matter Just the domain! http://www.website.com:80
+ origin = scheme + host + port
+ site = private_domain + public_suffix
+site = domain
+Cross-Origin Policy Blocks external resource requests from/to a site Why?</description></item><item><title>Week 5</title><link>/week5/</link><pubDate>Mon, 11 Mar 2024 10:00:00 +1100</pubDate><guid>/week5/</guid><description> Week 5 Good Faith Policy &amp;ldquo;These courses expects a high standard of professionalism from its students with regard to how security testing is conducted. We expect all students to act in good faith at all times [&amp;hellip;]&amp;rdquo;
 TL;DR Don&amp;rsquo;t be mean
 https://sec.edu.au/good-faith-policy
 Anything to go over? More SQLi UNION Add data Other data from table Limitations Schemas Out of band SSRF and RCE Command Injections Rev Shells</description></item><item><title>Week 4</title><link>/week4/</link><pubDate>Mon, 04 Mar 2024 10:00:00 +1100</pubDate><guid>/week4/</guid><description>Week 4 Good Faith Policy &amp;ldquo;These courses expects a high standard of professionalism from its students with regard to how security testing is conducted. We expect all students to act in good faith at all times [&amp;hellip;]&amp;rdquo;
